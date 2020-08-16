@@ -12,7 +12,7 @@ HaCkeRWaSi
 
 HaCkeRWaSi is an information collection tool (OSINT) which aims to carry out research on a French, Swiss, Luxembourgish or Belgian person. It provides various modules that allow efficient searches. HaCkeRWaSi does not require an API key or login ID.
 
-![](https://i.ibb.co/YdvfVPw/Capture.png)
+![]()
 
 Disclaimer
 =
