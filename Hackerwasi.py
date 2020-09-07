@@ -1,26 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-#This script is made by Hacker wasi 
-#Don't copy this source code with out cradit.
-#MIT License
-#Copyright (c) 2020 Evil Devil
-#Permission is hereby granted, free of charge, to any person obtaining a copy
-#of this software and associated documentation files (the "Software"), to deal
-#in the Software without restriction, including without limitation the rights
-#to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-#copies of the Software, and to permit persons to whom the Software is
-#furnished to do so, subject to the following conditions:
-
-#The above copyright notice and this permission notice shall be included in all
-#copies or substantial portions of the Software.
-
-#THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-#IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-#FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-#AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-#LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-#OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-#SOFTWARE.
 
 import sys, os, time, random, threading
 from colorama import init, Fore,  Back,  Style
@@ -70,7 +49,6 @@ mainOption = """
  [2] Other tool
  [3] Profiler
  [4] Change country
-
  [e] Exit script    [h] Help Message    [c] Clear Screen"""
 
 
@@ -82,12 +60,10 @@ lookupOption = """
  [5] IP lookup                [12] twitter info
  [6] SSID locator             [13] instagram info
  [7] Email lookup
-
  [b] back main menu    [e] Exit script    [h] Help Message    [c] Clear Screen"""
 
 otherToolOption = """
  [1] Hash decrypter
-
  [b] back main menu    [e] Exit script    [h] Help Message    [c] Clear Screen
 """
 
@@ -95,7 +71,6 @@ profilerOption = """
  [1] Profiler
  [2] Show all Profiles
  [3] Create profile
-
  [b] back main menu    [c] Clear screen   [h] Help message
 """
 
@@ -103,7 +78,6 @@ countryMenu = """
  [1] FR (France)     [4] LU (Luxembourg)
  [2] BE (Belgique)   [5] All (FR, BE, CH, LU)
  [3] CH (Suisse)
-
  [b] back main menu   [c] Clear screen   [h] Help message
 """
 
@@ -142,7 +116,7 @@ try:
 					menu()
 					print(mainOption)
 					break
-					elif choix.lower() == 'c':
+				elif choix.lower() == 'c':
 					clear()
 					menu()
 					print(profilerOption)
@@ -157,21 +131,21 @@ try:
 						data = pr.searchDatabase(profile, database=database)
 						profilerFunc(data, path=settings.pathDatabase)
 					else:
-						print(warning+" Aucun profil trouvé. Veuillez en créer un.")
+						print(warning+" No profile found. Please create one.")
 				elif choix.lower() == "2":
 					pr.showAllProfiles(database=database)
 
 				elif choix.lower() == '3':
-					print("\n"+Fore.YELLOW+"(Format: Prenom Nom)"+Fore.RESET)
+					print("\n"+Fore.YELLOW+"(Format: First Name)"+Fore.RESET)
 					while True: 
-						name = input(" Nom du Profil: ")
+						name = input(" Profile Name: ")
 						if name != '':
 							break
 					name = name.split(" ")
 					name = [i.capitalize() for i in name]
 					name = " ".join(name)
 					while True:
-						print(question+" Voulez vous inscrire un compte Twitter pour se profile ?")
+						print(question+" Want to register a Twitter account to profile ?")
 						choixPr = input(" [O/n]: " )
 						if choixPr.upper() == 'N':
 							break
@@ -181,7 +155,7 @@ try:
 							break
 					# print(found+" %s" % (twitter))
 					while True:
-						print(question+" Voulez vous inscrire un compte Instagram pour se profile ?")
+						print(question+" Want to register an Instagram account to profile ?")
 						choixPr = input(" [O/n]: " )
 						if choixPr.upper() == 'N':
 							break
@@ -190,7 +164,7 @@ try:
 							info['URL']['Instagram'] = instagram
 							break
 					while True:
-						print(question+" Voulez vous inscrire un compte Facebook pour se profile ?")
+						print(question+" Want to register a Facebook account to profile ?")
 						choixPr = input(" [O/n]: " )
 						if choixPr.upper() == 'N':
 							break
@@ -202,9 +176,9 @@ try:
 					create = pr.writeProfile(fileName=name, path=settings.pathDatabase, info=info)
 
 					if create:
-						print("\n"+found+" Le profil '%s' a été créé avec succès." % (name))
+						print("\n"+found+" The profile '%s' was successfully created." % (name))
 					else:
-						print("\n"+warning+" Une erreur est survenue. Le profil '%s' n'a pas pu être créé." % (name))
+						print("\n"+warning+" An error has occurred. The profile '%s' n'could not be created." % (name))
 
 		elif choix.lower() == 'e' or choix.lower() == 'exit':
 			sys.exit("\n"+information+" Bye ! :)")
