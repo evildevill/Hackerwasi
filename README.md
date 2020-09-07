@@ -96,6 +96,25 @@ In the HaCkeRWaSi directory, run this command to be able to launch HaCkeRWaSi:
 ```
 python3 Hackerwasi.py
 ```
+### Screen Shots
+ <img src="https://raw.githubusercontent.com/8bithemant/8bithemant/master/svg/dev/languages/html.svg">
+ 
+### Installation on Termux
+```
+    pkg update -y
+    pkg upgrade -y
+    pkg instal python2 -y
+    pkg install python -y
+    pkg install git -y
+    git clone https://github.com/evildevill/Hackerwasi
+    cd Hackerwasi
+    chmod +x *
+    pip3 install -r requirements.txt
+    or
+    python -m pip install -r requirements.txt
+    python Hackerwasi.py
+
+```
 
 Installation on Windows
 =
