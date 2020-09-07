@@ -59,6 +59,7 @@
 <img src="https://visitor-badge.laobi.icu/badge?page_id=HackerWaSi" alt="visitor badge"/>
 </p>
 
+<img src="https://github.com/evildevill/Hackerwasi/blob/master/images/s1png">
 
 Table of Contents
 =
@@ -97,7 +98,8 @@ In the HaCkeRWaSi directory, run this command to be able to launch HaCkeRWaSi:
 python3 Hackerwasi.py
 ```
 ### Screen Shots
- <img src="https://raw.githubusercontent.com/8bithemant/8bithemant/master/svg/dev/languages/html.svg">
+ <img src="https://github.com/evildevill/Hackerwasi/blob/master/images/s3.png">
+ 
  
 ### Installation on Termux
 ```
@@ -131,7 +133,10 @@ et executez:
 ```
     python3 -m pip install -r requirements.txt
 ```
-
+<img src="https://github.com/evildevill/Hackerwasi/blob/master/images/s2.png">
+<img src="https://github.com/evildevill/Hackerwasi/blob/master/images/s4.png">
+<img src="https://github.com/evildevill/Hackerwasi/blob/master/images/s5.png">
+<img src="https://github.com/evildevill/Hackerwasi/blob/master/images/s6.png">
 Start HaCkeRWaSi from Windows:
 =
 - Go to the ** HaCkeRWaSi-master ** directory as when it was installed and run the command:
