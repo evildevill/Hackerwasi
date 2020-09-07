@@ -142,7 +142,7 @@ try:
 					menu()
 					print(mainOption)
 					break
-df				elif choix.lower() == 'c':
+					elif choix.lower() == 'c':
 					clear()
 					menu()
 					print(profilerOption)
@@ -339,4 +339,4 @@ df				elif choix.lower() == 'c':
 			# print("Commande introuvable")
 
 except KeyboardInterrupt:
-	sys.exit("\n"+information+" Good Bye wish you a good luck ! :)")
+	sys.exit("\n"+information+" Good Bye wish you a good luck Don't Forget to SubScribe our YouTube Channel ! :)")
