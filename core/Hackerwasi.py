@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+# code name hackerwasii
+# coded by wasim akram 🖤💯
 
 __version__ = 6.0
 
