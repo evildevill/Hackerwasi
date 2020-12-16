@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+#coded by wasim akram
+#pakistan cyber black Mafia
 
 import sys, os, time, random, threading
 from colorama import init, Fore,  Back,  Style
