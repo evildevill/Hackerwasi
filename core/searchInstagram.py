@@ -15,6 +15,10 @@ def searchInstagram():
 	insta = instagramSearchTool()
 	insta.getInfo(user)
 
+	if not insta.name:
+		print("\n" + warning + "Username '%s' not found." % user)
+		return
+
 	name = insta.name
 	userId = insta.id
 	images = insta.profi_pic_hd
@@ -36,7 +40,7 @@ def searchInstagram():
 	print(found+" Pictures: %s" % (images))
 	print(found+" ID: %s" % (userId))
 	print(found+" Protected: %s" % (private))
-	print(found+" Abonnés: %s  |  Abonnements: %s" % (followers, friend))
+	print(found+" Subscribers: %s  |  Subscriptions: %s" % (followers, friend))
 	print(found+" Publication: %s" % (publication))
 	print(found+" Bio: %s" % (bio))
 
@@ -47,10 +51,10 @@ def searchInstagram():
 	if phone:
 		print(found+" Telephone: %s" % (phone))
 	if adresse:
-		print(found+" Lieux: %s" % (adresse))
+		print(found+" Places: %s" % (adresse))
 
 	if not private:
-		print("\n"+question+" Voulez vous télécharger les 12 dernières photos postées ?")
+		print("\n"+question+" Do you want to download the last 12 photos posted? ?")
 
 		while True:
 			choix = input("\n [o/N]: ")
@@ -59,11 +63,11 @@ def searchInstagram():
 				break
 			
 			elif choix.upper() == "O":
-				print("\n"+question+" Ou voulez-vous enregistrer les photos ?")
+				print("\n"+question+" Or do you want to save the photos ?")
 				pathDefault = os.getcwd()
 				print(Fore.YELLOW+" Default path: "+pathDefault+Fore.RESET)
 				path = input("\n Path: ")
-				print("\n"+wait+" Téléchargement des photos de '%s'\n" % (user))
+				print("\n"+wait+" Upload photos of '% s'\n" % (user))
 			
 				if not path:
 					path = pathDefault
@@ -82,7 +86,7 @@ def searchInstagram():
 						loc = ''
 
 					insta.downloadPictures(media, path, filename)
-					print("(%s) %s %s [%s] %s téléchargé." % (str(i), typeMedia, date, view, loc))
+					print("(% s)% s% s [% s]% s downloaded." % (str(i), typeMedia, date, view, loc))
 
-				print("\n"+found+" Téléchargement fini.")
+				print("\n"+found+" Download finished.")
 				break
