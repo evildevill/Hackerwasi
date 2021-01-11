@@ -12,7 +12,7 @@ def checkVersion():
 	if int(version) == 3:
 		pass
 	else:
-		sys.exit(warning+" Veuillez lancer la version 3 de python.")
+		sys.exit(warning+" python3 is must installed to use this best tool.")
 
 def clear():
 	if os.name == 'nt':
@@ -34,7 +34,7 @@ def menu():
 	menu = """
                          __..--.._
   .....              .--~  .....  `.         Time:      [ %s | %s ]
-.":    "`-..  .    .' ..-'"    :". `         Author:    [ HackErWaSi ]
+.":    "`-..  .    .' ..-'"    :". `         Author:    [ Waseem Akram ]
 ` `._ ` _.'`"(     `-"'`._ ' _.' '           Version:   [ %s ]
      ~~~      `.          ~~~                Pays:      [ %s | %s ]
               .'                             Database:  [ %s | %s Ko ]
