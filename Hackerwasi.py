@@ -1,7 +1,6 @@
+ 
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-#coded by wasim akram
-#pakistan cyber black Mafia
 
 import sys, os, time, random, threading
 from colorama import init, Fore,  Back,  Style
@@ -27,7 +26,7 @@ from core.hashDecrypt import hashdecrypt
 
 
 #Help & settings
-from txt.help import helpLookup
+from txt.help import *
 import settings
 
 init()
@@ -89,7 +88,7 @@ print(mainOption)
 
 try:
 	while True:
-		choix = input("\n HackErWaSi("+Fore.BLUE + "~" + Fore.RESET + ")$ ")
+		choix = input("\n Waseem Akram("+Fore.BLUE + "~" + Fore.RESET + ")$ ")
 
 		if choix.lower() == 'h':
 			print(helpMain)
@@ -107,7 +106,7 @@ try:
 				pr.loadDatabase(settings.pathDatabase)
 				database = pr.database
 
-				choix = input("\n HackErWaSi("+Fore.BLUE + "Profiler" + Fore.RESET + ")$ ")
+				choix = input("\n Waseem Akram("+Fore.BLUE + "Profiler" + Fore.RESET + ")$ ")
 
 				info = {"URL": {}}
 				
@@ -127,7 +126,7 @@ try:
 				elif choix.lower() == "1":
 					if pr.count >= 1:
 						while True: 
-							profile = input(" Profil: ")
+							profile = input(" Profile: ")
 							if profile != '':
 								break
 						data = pr.searchDatabase(profile, database=database)
@@ -138,7 +137,7 @@ try:
 					pr.showAllProfiles(database=database)
 
 				elif choix.lower() == '3':
-					print("\n"+Fore.YELLOW+"(Format: First Name)"+Fore.RESET)
+					print("\n"+Fore.YELLOW+"(Format: First name Last name)"+Fore.RESET)
 					while True: 
 						name = input(" Profile Name: ")
 						if name != '':
@@ -157,7 +156,7 @@ try:
 							break
 					# print(found+" %s" % (twitter))
 					while True:
-						print(question+" Want to register an Instagram account to profile ?")
+						print(question+" Want to register a Instagram account to profile ?")
 						choixPr = input(" [O/n]: " )
 						if choixPr.upper() == 'N':
 							break
@@ -166,7 +165,7 @@ try:
 							info['URL']['Instagram'] = instagram
 							break
 					while True:
-						print(question+" Want to register a Facebook account to profile ?")
+						print(question+" want to register a Facebook account to profile ?")
 						choixPr = input(" [O/n]: " )
 						if choixPr.upper() == 'N':
 							break
@@ -178,9 +177,9 @@ try:
 					create = pr.writeProfile(fileName=name, path=settings.pathDatabase, info=info)
 
 					if create:
-						print("\n"+found+" The profile '%s' was successfully created." % (name))
+						print("\n"+found+" Profile '% s' was created successfully." % (name))
 					else:
-						print("\n"+warning+" An error has occurred. The profile '%s' n'could not be created." % (name))
+						print("\n"+warning+" An error has occurred. Profile '% s' could not be created." % (name))
 
 		elif choix.lower() == 'e' or choix.lower() == 'exit':
 			sys.exit("\n"+information+" Bye ! :)")
@@ -189,7 +188,7 @@ try:
 			menu()
 			print(lookupOption)
 			while True:
-				lookup = input("\n HackErWaSi("+Fore.BLUE+"Lookup"+Fore.BLUE + "" + Fore.RESET + ")$ ")
+				lookup = input("\n Hacker wasii("+Fore.BLUE+"Lookup"+Fore.BLUE + "" + Fore.RESET + ")$ ")
 				if lookup == 'h':
 					print(helpLookup)
 				elif lookup.lower() == '1':
@@ -239,7 +238,7 @@ try:
 			menu()
 			print(otherToolOption)
 			while True:
-				se = input("\n HackErWaSi("+Fore.BLUE+"OtherTool"+Fore.BLUE + "" + Fore.RESET + ")$ ")
+				se = input("\n Waseem Akram("+Fore.BLUE+"OtherTool"+Fore.BLUE + "" + Fore.RESET + ")$ ")
 				if se == 'h':
 					print(helpOtherTool)
 				elif se == "1":
@@ -266,7 +265,7 @@ try:
 			print(countryMenu)
 
 			while True:
-				newCode = input("\n HackErWaSi("+Fore.BLUE+"Country"+Fore.BLUE + "" + Fore.RESET + ")$ ")
+				newCode = input("\n Hacker wasii("+Fore.BLUE+"Country"+Fore.BLUE + "" + Fore.RESET + ")$ ")
 				if newCode == '1':
 					settings.codemonpays = "FR"
 					settings.monpays = "France"
@@ -312,7 +311,7 @@ try:
 					print(helpMain)
 		else:
 			pass
-			# print("Commande introuvable")
+			# print("Command not found")
 
 except KeyboardInterrupt:
-	sys.exit("\n"+information+" Good Bye wish you a good luck Don't Forget to SubScribe our YouTube Channel ! :)")
+	sys.exit("\n"+information+" Bye ! :)")
