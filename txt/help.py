@@ -13,17 +13,17 @@ helpMain = """
 helpLookup = """
  Name                             Action
  ----                             ------
-[1]  Personne lookup                  Do research with a name, first name and (city).
-[2]  Username lookup                  Do research with a pseudonym.
+[1]  Personne lookup                  Research with a name, first name and (city).
+[2]  Username lookup                  Research with a pseudonym.
 [3]  Adresse lookup                   Search with an address.
-[4]  Phone lookup                     Do research with a phone number.
+[4]  Phone lookup                     Research with a phone number.
 [5]  IP lookup                        Searching with an IP address.
 [6]  SSID locator                     Searching with a MAC / BSSID address
-[7]  Email lookup                     Do research with an email address.
-[8]  Mail tracer                      Do research with the header of an email.
+[7]  Email lookup                     Research with an email address.
+[8]  Mail tracer                      Research with the header of an email.
 [9]  Employés recherche               Finds the employees of a company.
-[10] Google search                    Do research on google.
-[11] Facebook graphSearch             Do research using graphSearch.
+[10] Google search                    Research on google.
+[11] Facebook graphSearch             Research using graphSearch.
 [12] twitter info                     Retrieve information from a Twitter account.
 [13] instagram info                   Retrieve information from a Instagram account.
 
