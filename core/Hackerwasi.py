@@ -1,6 +1,4 @@
 # -*- coding: utf-8 -*-
-# code name hackerwasii
-# coded by wasim akram 🖤💯
 
 __version__ = 6.0
 
@@ -20,7 +18,7 @@ def checkVersion():
 	if int(version) == 3:
 		pass
 	else:
-		sys.exit(warning+" Veuillez lancer la version 3 de python.")
+		sys.exit(warning+" please install python3 to use this tool.")
 
 checkVersion()
 
@@ -74,7 +72,7 @@ def loadlib():
 		os.mkdir(pathDatabase)
 
 def loadingHack(importlib):
-	chaine = "[*]"+' Start HackErWaSi...'
+	chaine = "[*]"+' Start Hacker wasi...'
 	charspec = "$*.X^%_/\\#~!?;"
 
 	while importlib.is_alive():
@@ -91,7 +89,7 @@ def loadingHack(importlib):
 
 def loadingUpper(importlib):
 
-	string = "Start HackErWaSi"
+	string = "Start Hacker wasii😘"
 	string = list(string)
 	nb = len(string)
 
@@ -109,7 +107,7 @@ def loadingUpper(importlib):
 			x += 1
 
 def loadingTextPrint(importlib):
-	string = "Start HackErWaSi"
+	string = "Start Hackerwasi..."
 
 	while importlib.is_alive():
 
@@ -121,7 +119,7 @@ def loadingTextPrint(importlib):
 		while x <= len(string):
 			times = "0."
 			times += str(random.choice(range(1, 3)))
-			sys.stdout.write("\rroot@HackErWaSi:~$ "+string[:x]+"|")
+			sys.stdout.write("\rroot@Hackerwasi:~$ "+string[:x]+"|")
 			time.sleep(float(times))
 			x += 1
 
@@ -155,166 +153,130 @@ from datetime import date
 today_date = date.today()
 
 header1 = """
-   ___ ___                __                                       .__ 
- /   |   \_____    ____ |  | __ _____________  _  _______    _____|__|
-/    ~    \__  \ _/ ___\|  |/ // __ \_  __ \ \/ \/ /\__  \  /  ___/  |
-\    Y    // __ \\  \___|    <\  ___/|  | \/\     /  / __ \_\___ \|  |
- \___|_  /(____  /\___  >__|_ \\___  >__|    \/\_/  (____  /____  >__|
-       \/      \/     \/     \/    \/                    \/     \/      
+ _    _    __    ___  ____ 
+( \/\/ )  /__\  / __)(_  _)
+ )    (  /(__)\ \__ \ _)(_ 
+(__/\__)(__)(__)(___/(____)
 """
 
 header2 = """
-
-      ___           ___           ___           ___           ___           ___           ___           ___           ___                 
-     /\__\         /\  \         /\  \         /\__\         /\  \         /\  \         /\__\         /\  \         /\  \          ___   
-    /:/  /        /::\  \       /::\  \       /:/  /        /::\  \       /::\  \       /:/ _/_       /::\  \       /::\  \        /\  \  
-   /:/__/        /:/\:\  \     /:/\:\  \     /:/__/        /:/\:\  \     /:/\:\  \     /:/ /\__\     /:/\:\  \     /:/\ \  \       \:\  \ 
-  /::\  \ ___   /::\~\:\  \   /:/  \:\  \   /::\__\____   /::\~\:\  \   /::\~\:\  \   /:/ /:/ _/_   /::\~\:\  \   _\:\~\ \  \      /::\__\
- /:/\:\  /\__\ /:/\:\ \:\__\ /:/__/ \:\__\ /:/\:::::\__\ /:/\:\ \:\__\ /:/\:\ \:\__\ /:/_/:/ /\__\ /:/\:\ \:\__\ /\ \:\ \ \__\  __/:/\/__/
- \/__\:\/:/  / \/__\:\/:/  / \:\  \  \/__/ \/_|:|~~|~    \:\~\:\ \/__/ \/_|::\/:/  / \:\/:/ /:/  / \/__\:\/:/  / \:\ \:\ \/__/ /\/:/  /   
-      \::/  /       \::/  /   \:\  \          |:|  |      \:\ \:\__\      |:|::/  /   \::/_/:/  /       \::/  /   \:\ \:\__\   \::/__/    
-      /:/  /        /:/  /     \:\  \         |:|  |       \:\ \/__/      |:|\/__/     \:\/:/  /        /:/  /     \:\/:/  /    \:\__\    
-     /:/  /        /:/  /       \:\__\        |:|  |        \:\__\        |:|  |        \::/  /        /:/  /       \::/  /      \/__/    
-     \/__/         \/__/         \/__/         \|__|         \/__/         \|__|         \/__/         \/__/         \/__/                
+ _  _   __   ____  __  
+/ )( \ / _\ / ___)(  ) 
+\ /\ //    \\___ \ )(  
+(_/\_)\_/\_/(____/(__) 
 """
 
 header5 = """
-      ___           ___           ___           ___           ___           ___           ___           ___           ___                 
-     /__/\         /  /\         /  /\         /__/|         /  /\         /  /\         /__/\         /  /\         /  /\        ___     
-     \  \:\       /  /::\       /  /:/        |  |:|        /  /:/_       /  /::\       _\_ \:\       /  /::\       /  /:/_      /  /\    
-      \__\:\     /  /:/\:\     /  /:/         |  |:|       /  /:/ /\     /  /:/\:\     /__/\ \:\     /  /:/\:\     /  /:/ /\    /  /:/    
-  ___ /  /::\   /  /:/~/::\   /  /:/  ___   __|  |:|      /  /:/ /:/_   /  /:/~/:/    _\_ \:\ \:\   /  /:/~/::\   /  /:/ /::\  /__/::\    
- /__/\  /:/\:\ /__/:/ /:/\:\ /__/:/  /  /\ /__/\_|:|____ /__/:/ /:/ /\ /__/:/ /:/___ /__/\ \:\ \:\ /__/:/ /:/\:\ /__/:/ /:/\:\ \__\/\:\__ 
- \  \:\/:/__\/ \  \:\/:/__\/ \  \:\ /  /:/ \  \:\/:::::/ \  \:\/:/ /:/ \  \:\/:::::/ \  \:\ \:\/:/ \  \:\/:/__\/ \  \:\/:/~/:/    \  \:\/\
-  \  \::/       \  \::/       \  \:\  /:/   \  \::/~~~~   \  \::/ /:/   \  \::/~~~~   \  \:\ \::/   \  \::/       \  \::/ /:/      \__\::/
-   \  \:\        \  \:\        \  \:\/:/     \  \:\        \  \:\/:/     \  \:\        \  \:\/:/     \  \:\        \__\/ /:/       /__/:/ 
-    \  \:\        \  \:\        \  \::/       \  \:\        \  \::/       \  \:\        \  \::/       \  \:\         /__/:/        \__\/  
-     \__\/         \__\/         \__\/         \__\/         \__\/         \__\/         \__\/         \__\/         \__\/                
+ __      __               .__ 
+/  \    /  \_____    _____|__|
+\   \/\/   /\__  \  /  ___/  |
+ \        /  / __ \_\___ \|  |
+  \__/\  /  (____  /____  >__|
+       \/        \/     \/    
 """
 
 header6 = """
- _   _            _                               _ 
-| | | | __ _  ___| | _____ _ ____      ____ _ ___(_)
-| |_| |/ _` |/ __| |/ / _ \ '__\ \ /\ / / _` / __| |
-|  _  | (_| | (__|   <  __/ |   \ V  V / (_| \__ \ |
-|_| |_|\__,_|\___|_|\_\___|_|    \_/\_/ \__,_|___/_|
+ __    __          _ 
+/ / /\ \ \__ _ ___(_)
+\ \/  \/ / _` / __| |
+ \  /\  / (_| \__ \ |
+  \/  \/ \__,_|___/_|
 """
 
 header7 = """
-   __ __         __                           _ 
-  / // /__ _____/ /_____ _____    _____ ____ (_)
- / _  / _ `/ __/  '_/ -_) __/ |/|/ / _ `(_-</ / 
-/_//_/\_,_/\__/_/\_\\__/_/  |__,__/\_,_/___/_/                                                        
+  _      __         _ 
+ | | /| / /__ ____ (_)
+ | |/ |/ / _ `(_-</ / 
+ |__/|__/\_,_/___/_/  
 """
 
 header8 = """
-         _                                                                                
-          ' )     )                    /'  _/                                               
-          /'    /'                   /' _/~                                                 
-       ,/'    /' ____     ____    ,/'_/~  ____      ____   .   . ,   ,   ____     ____     O
-      /`---,/' /'    )  /'    )--/\/~   /'    )   )'    )--|   |/   /  /'    )  /'    )--/' 
-    /'    /' /'    /' /'       /'  \  /(___,/'  /'         |  /|  /' /'    /'  '---,   /'   
-(,/'     (_,(___,/(__(___,/  /'     \(________/'          _|/' |/(__(___,/(__(___,/   (__                                                                                                                  
+,--.   ,--.               ,--. 
+|  |   |  | ,--,--. ,---. `--' 
+|  |.'.|  |' ,-.  |(  .-' ,--. 
+|   ,'.   |\ '-'  |.-'  `)|  | 
+'--'   '--' `--`--'`----' `--' 
 """
 
 header9 = """
-    ___    _____  _______    __     _    _        __     ___    ____    _____  ______       ___      __
-\  |   |  /    /  \     /  __) \   | )  / \    ___) |    \  |  |    |  |    /  \     )  ____) (_    _) 
- |  \_/  |    /    \   |  /     |  |/  /   |  (__   |     ) |  |    |  |   /    \   (  (___     |  |   
- |   _   |   /  ()  \  | |      |     (    |   __)  |    /  |  |    |  |  /  ()  \   \___  \    |  |   
- |  / \  |  |   __   | |  \__   |  |\  \   |  (___  | |\ \   \  \/\/  /  |   __   |  ____)  )  _|  |_  
-/  |___|  \_|  (__)  |__\    )_/   |_)  \_/       )_| |_\ \___\      /___|  (__)  |_(      (__(      )_                                                             
+ __        __        _ 
+ \ \      / /_ _ ___(_)
+  \ \ /\ / / _` / __| |
+   \ V  V / (_| \__ \ |
+    \_/\_/ \__,_|___/_|
 """
 
 header11 = """
-.-..-.             .-.                                     _ 
-: :; :             : :.-.                                 :_;
-:    : .--.   .--. : `'.' .--. .--. .-..-..-. .--.   .--. .-.
-: :: :' .; ; '  ..': . `.' '_.': ..': `; `; :' .; ; `._-.': :
-:_;:_;`.__,_;`.__.':_;:_;`.__.':_;  `.__.__.'`.__,_;`.__.':_;   
+ ,--.   ,--.               ,--. 
+ |  |   |  | ,--,--. ,---. `--' 
+ |  |.'.|  |' ,-.  |(  .-' ,--. 
+ |   ,'.   |\ '-'  |.-'  `)|  | 
+ '--'   '--' `--`--'`----' `--' 
 """
 
-header12 = """                                             
-          _______  _______  _        _______  _______           _______  _______ _________
-|\     /|(  ___  )(  ____ \| \    /\(  ____ \(  ____ )|\     /|(  ___  )(  ____ \\__   __/
-| )   ( || (   ) || (    \/|  \  / /| (    \/| (    )|| )   ( || (   ) || (    \/   ) (   
-| (___) || (___) || |      |  (_/ / | (__    | (____)|| | _ | || (___) || (_____    | |   
-|  ___  ||  ___  || |      |   _ (  |  __)   |     __)| |( )| ||  ___  |(_____  )   | |   
-| (   ) || (   ) || |      |  ( \ \ | (      | (\ (   | || || || (   ) |      ) |   | |   
-| )   ( || )   ( || (____/\|  /  \ \| (____/\| ) \ \__| () () || )   ( |/\____) |___) (___
-|/     \||/     \|(_______/|_/    \/(_______/|/   \__/(_______)|/     \|\_______)\_______/
-                 \\\\
-                  \\\\_   \\\\
-                   (')   \\\\_
- HackErWaSi -> / )=.---(') <- Privacy
-                o( )o( )_-\_
+header12 = """
+,--.   ,--.               ,--. 
+|  |   |  | ,--,--. ,---. `--' 
+|  |.'.|  |' ,-.  |(  .-' ,--. 
+|   ,'.   |\ '-'  |.-'  `)|  | 
+'--'   '--' `--`--'`----' `--' 
 """
 
 header13 = """
- _           _                            _                                                                                    _          
-(_)         (_)                          (_)                                                                                  (_)         
-(_)         (_)   _  _  _        _  _  _ (_)     _  _  _  _  _   _       _  _  _             _   _  _  _       _  _  _  _   _  _          
-(_) _  _  _ (_)  (_)(_)(_) _   _(_)(_)(_)(_)   _(_)(_)(_)(_)(_)_(_)_  _ (_)(_)(_)           (_) (_)(_)(_) _  _(_)(_)(_)(_) (_)(_)         
-(_)(_)(_)(_)(_)   _  _  _ (_) (_)        (_) _(_) (_) _  _  _ (_) (_)(_)      (_)     _     (_)  _  _  _ (_)(_)_  _  _  _     (_)         
-(_)         (_) _(_)(_)(_)(_) (_)        (_)(_)_  (_)(_)(_)(_)(_) (_)         (_)_  _(_)_  _(_)_(_)(_)(_)(_)  (_)(_)(_)(_)_   (_)         
-(_)         (_)(_)_  _  _ (_)_(_)_  _  _ (_)  (_)_(_)_  _  _  _   (_)           (_)(_) (_)(_) (_)_  _  _ (_)_  _  _  _  _(_)_ (_) _       
-(_)         (_)  (_)(_)(_)  (_) (_)(_)(_)(_)    (_) (_)(_)(_)(_)  (_)             (_)   (_)     (_)(_)(_)  (_)(_)(_)(_)(_) (_)(_)(_)   
+   __     __     ______     ______     __    
+  /\ \  _ \ \   /\  __ \   /\  ___\   /\ \   
+  \ \ \/ ".\ \  \ \  __ \  \ \___  \  \ \ \  
+   \ \__/".~\_\  \ \_\ \_\  \/\_____\  \ \_\ 
+    \/_/   \/_/   \/_/\/_/   \/_____/   \/_/ 
 """
 
 header14 = """
- _   _            _                               _ 
-| | | |          | |                             (_)
-| |_| | __ _  ___| | _____ _ ____      ____ _ ___ _ 
-|  _  |/ _` |/ __| |/ / _ \ '__\ \ /\ / / _` / __| |
-| | | | (_| | (__|   <  __/ |   \ V  V / (_| \__ \ |
-\_| |_/\__,_|\___|_|\_\___|_|    \_/\_/ \__,_|___/_|
+ __ __ __   ________   ______    ________     
+/_//_//_/\ /_______/\ /_____/\  /_______/\    
+\:\\:\\:\ \\::: _  \ \\::::_\/_ \__.::._\/    
+ \:\\:\\:\ \\::(_)  \ \\:\/___/\   \::\ \     
+  \:\\:\\:\ \\:: __  \ \\_::._\:\  _\::\ \__  
+   \:\\:\\:\ \\:.\ \  \ \ /____\:\/__\::\__/\ 
+    \_______\/ \__\/\__\/ \_____\/\________\/ 
 """
 
-header15 = """                                                                                             
- __ __   ____    __  __  _    ___  ____  __    __   ____  _____ ____ 
-|  T  T /    T  /  ]|  l/ ]  /  _]|    \|  T__T  T /    T/ ___/l    j
-|  l  |Y  o  | /  / |  ' /  /  [_ |  D  )  |  |  |Y  o  (   \_  |  T 
-|  _  ||     |/  /  |    \ Y    _]|    /|  |  |  ||     |\__  T |  | 
-|  |  ||  _  /   \_ |     Y|   [_ |    \l  `  '  !|  _  |/  \ | |  | 
-|  |  ||  |  \     ||  .  ||     T|  .  Y\      / |  |  |\    | j  l 
-l__j__jl__j__j\____jl__j\_jl_____jl__j\_j \_/\_/  l__j__j \___j|____j                                                                                                                                                               
+header15 = """
+.-.  .-.  .--.     .---. ,-. 
+| |/\| | / /\ \   ( .-._)|(| 
+| /  \ |/ /__\ \ (_) \   (_) 
+|  /\  ||  __  | _  \ \  | | 
+|(/  \ || |  |)|( `-'  ) | | 
+(_)   \||_|  (_) `----'  `-' 
 """
 
 header16 = """
- _______              __                                     __ 
-|   |   |.---.-.----.|  |--.-----.----.--.--.--.---.-.-----.|__|
-|       ||  _  |  __||    <|  -__|   _|  |  |  |  _  |__ --||  |
-|___|___||___._|____||__|__|_____|__| |________|___._|_____||__|               
+ ____      ____              _   
+|_  _|    |_  _|            (_)  
+  \ \  /\  / /,--.   .--.   __   
+   \ \/  \/ /`'_\ : ( (`\] [  |  
+    \  /\  / // | |, `'.'.  | |  
+     \/  \/  \'-;__/[\__) )[___] 
 """
 
 header17 = """
- ____ ____ ____ ____ ____ ____      
-||E |||V |||I |||L |||H |||A ||     
-||__|||__|||__|||__|||__|||__||     
-|/__\|/__\|/__\|/__\|/__\|/__\|     
- ____ ____ ____ ____ ____ ____ ____ 
-||C |||K |||E |||R |||W |||A |||SI||
-||__|||__|||__|||__|||__|||__|||__||
-|/__\|/__\|/__\|/__\|/__\|/__\|/__\|
+
+ ___       __   ________  ________  ___     
+|\  \     |\  \|\   __  \|\   ____\|\  \    
+\ \  \    \ \  \ \  \|\  \ \  \___|\ \  \   
+ \ \  \  __\ \  \ \   __  \ \_____  \ \  \  
+  \ \  \|\__\_\  \ \  \ \  \|____|\  \ \  \ 
+   \ \____________\ \__\ \__\____\_\  \ \__\
+    \|____________|\|__|\|__|\_________\|__|
+                            \|_________| 
 """
 
 header18 = """
-                                                              
-                                                  ..                                                                .x+=:.      .    
-         .xHL                               < .z@8"`                                x=~                            z`    ^%    @88>  
-      .-`8888hxxx~                           !@88E                      .u    .    88x.   .e.   .e.                   .   <k   %8P   
-   .H8X  `%888*"            u           .    '888E   u         .u     .d88B :@8c  '8888X.x888:.x888        u        .@8Ned8"    .    
-   888X     ..x..        us888u.   .udR88N    888E u@8NL    ud8888.  ="8888f8888r  `8888  888X '888k    us888u.   .@^%8888"   .@88u  
-  '8888k .x8888888x   .@88 "8888" <888'888k   888E`"88*"  :888'8888.   4888>'88"    X888  888X  888X .@88 "8888" x88:  `)8b. ''888E` 
-   ?8888X    "88888X  9888  9888  9888 'Y"    888E .dN.   d888 '88%"   4888> '      X888  888X  888X 9888  9888  8888N=*8888   888E  
-    ?8888X    '88888> 9888  9888  9888        888E~8888   8888.+"      4888>        X888  888X  888X 9888  9888   %8"    R88   888E  
- H8H %8888     `8888> 9888  9888  9888        888E '888&  8888L       .d888L .+    .X888  888X. 888~ 9888  9888    @8Wou 9%    888E  
-'888> 888"      8888  9888  9888  ?8888u../   888E  9888. '8888c. .+  ^"8888*"     `%88%``"*888Y"    9888  9888  .888888P`     888&  
- "8` .8" ..     88*   "888*""888"  "8888P'  '"888*" 4888"  "88888%       "Y"         `~     `"       "888*""888" `   ^"F       R888" 
-    `  x8888h. d*"     ^Y"   ^Y'     "P'       ""    ""      "YP'                                     ^Y"   ^Y'                 ""   
-      !""*888%~                                                                                                                      
-      !   `"  .                                                                                                                      
-      '-....:~
+██╗    ██╗ █████╗ ███████╗██╗
+██║    ██║██╔══██╗██╔════╝██║
+██║ █╗ ██║███████║███████╗██║
+██║███╗██║██╔══██║╚════██║██║
+╚███╔███╔╝██║  ██║███████║██║
+ ╚══╝╚══╝ ╚═╝  ╚═╝╚══════╝╚═╝
 """
 
 def lb_header():
@@ -324,69 +286,70 @@ def lb_header():
     return(random.choice(headers))
 
 helpMain = """
- Name                       Action
- ----                       ------<
- Lookup                     Do some research on a person.
- Other Tool                 Use tools other than recognition.
- Make file                  Create a '.txt' file to write the information obtained.
- Show Database              Access the database.
-
- Exit                       Exit the software.
- Help                       Affiche se message.
- Clear                      Clear the screen."""
-
-helpLookup = """
- Name                             Action
- ----                             ------
-[1]  Personne lookup                  Do research with a name, first name and (city).
-[2]  Username lookup                  Do research with a pseudonym.
-[3]  Adresse lookup                   Search with an address.
-[4]  Phone lookup                     Do research with a phone number.
-[5]  IP lookup                        Searching with an IP address.
-[6]  SSID locator                     Searching with a MAC / BSSID address
-[7]  Email lookup                     Do research with an email address.
-[8]  Mail tracer                      Do research with the header of an email.
-[9]  Employés recherche               Finds the employees of a company.
-[10] Google search                    Do research on google.
-[11] Facebook graphSearch             Do research using graphSearch.
-[12] twitter info                     Retrieve information from a Twitter account.
-[13] instagram info                   Retrieve information from a Instagram account.
-
-[b]  Back main menu                   Return to the main menu.
-[e]  Exit script                      To exit the software.
-[c]  Clear screen                     Clear the screen.
-[h]  Help Message                     Display this message."""
-helpOtherTool = """
- Name                             Action
- ----                             ------
- Hash decrypter                   Try to decrypt a hash via an online database.
-
- Back main menu                   Return to the main menu.
- Exit script                      To exit the software.
- Clear screen                     Clear the screen."""
-
-helpProfiler = """
- Name                      Action
- ----                      ------
- Search Profiles           Search for a profile in the database.
- Show all Profiles         Displays all the profiles in the database.
-
- Exit Database             Exit the database to return to the main menu.
- Help message              Message displays
-"""
-
-helpCountry = """
- Name                      Action
- ----                      ------
- FR                        Use French services.
- BE                        Use Belgian services.
- CH                        Use Swiss services.
- LU                        Use Luxembourgish services.
- All                       Use all services.
-
- Back main menu            Return to the main menu.
- Exit script               To exit the software.
- Clear screen              Clear the screen."""
+  Name                       Action
+  ----                       ------<
+  Lookup                     Do some research on a person.
+  Other Tool                 Use tools other than recognition.
+  Make file                  Create a '.txt' file to write the information obtained.
+  Show Database              Access the database.
+ 
+  Exit                       Exit the software.
+  Help                       Affiche se message.
+  Clear                      Clear the screen."""
+ 
+ helpLookup = """
+  Name                             Action
+  ----                             ------
+ [1]  Personne lookup                  Research with a name, first name and (city).
+ [2]  Username lookup                  Research with a pseudonym.
+ [3]  Adresse lookup                   Search with an address.
+ [4]  Phone lookup                     Research with a phone number.
+ [5]  IP lookup                        Searching with an IP address.
+ [6]  SSID locator                     Searching with a MAC / BSSID address
+ [7]  Email lookup                     Research with an email address.
+ [8]  Mail tracer                      Research with the header of an email.
+ [9]  Employés recherche               Finds the employees of a company.
+ [10] Google search                    Research on google.
+ [11] Facebook graphSearch             Research using graphSearch.
+ [12] twitter info                     Retrieve information from a Twitter account.
+ [13] instagram info                   Retrieve information from a Instagram account.
+ 
+ [b]  Back main menu                   Return to the main menu.
+ [e]  Exit script                      To exit the software.
+ [c]  Clear screen                     Clear the screen.
+ [h]  Help Message                     Display this message."""
+ helpOtherTool = """
+  Name                             Action
+  ----                             ------
+  Hash decrypter                   Try to decrypt a hash via an online database.
+ 
+  Back main menu                   Return to the main menu.
+  Exit script                      To exit the software.
+  Clear screen                     Clear the screen."""
+ 
+ helpProfiler = """
+  Name                      Action
+  ----                      ------
+  Search Profiles           Search for a profile in the database.
+  Show all Profiles         Displays all the profiles in the database.
+ 
+  Exit Database             Exit the database to return to the main menu.
+  Help message              Message displays
+ """
+ 
+ helpCountry = """
+  Name                      Action
+  ----                      ------
+  FR                        Use French services.
+  BE                        Use Belgian services.
+  CH                        Use Swiss services.
+  LU                        Use Luxembourgish services.
+  All                       Use all services.
+ 
+  Back main menu            Return to the main menu.
+  Exit script               To exit the software.
+  Clear screen              Clear the screen."""
+ 
 
 mainOption = """
  [1] Lookup
@@ -396,13 +359,7 @@ mainOption = """
 
  [e] Exit script    [h] Help Message    [c] Clear Screen"""
 
-text = ['Press F to hack', 'LEAVE ME HERE', 'The security is an illusion.', 'Profiler ctOS v2.0', 'DedSec takeover', 'Fsociety00.dat', 'Evil Corp',
- 'Hello, friend', 'Hacking is our weapon', 'Hello, World', 'Login the world...', 'Big Brother is watching you.', 'Fuck Society', 'Wrench is calling...',
- 'The control is an illusion.', 'install google_crack.exe...', 'you are free ! lol no, it was a joke.', 'you are a 1 or a 0 ?', 'Matraque: 1 - Genou: 0', 'Je veux que tu comprenne... Que tu ne sera plus jamais libre..', 'Tu pense être intouchable... Je vais briser tes illusion...',
- 'je veux que tu sache... que tu n\'es plus anonyme...', 'Snapchat: T-Bone sent you a new message.', 'LulzSec <3 <3', '<3 Kraken Security OS is bae <3', 'DedSec is now in LinkedIn !',
- 'FRANCE World champion 2018 !!', '~~(8:> is Defalt ~~(8:>', 'Facebook: Neo in a relationship with Elliot Alderson.', 'Just.. fuck the society.', 'locating 127.0.0.1 ... No match found', 
- '101100100101100 01100110010110011001', '101100 0110011001', 'c2V5cHRvbyBteSBsb3Zl', '1 item in your web hisotry: \'Fkk cuckold how to make your wife a hotwife zootube\'', '49 20 4c 4f 56 45 20 55', 'NB2HI4DTHIXS653XO4XHS33VOR2WEZJOMNXW2L3XMF2GG2B7OY6VUS3OKVZGQYSLJQ3GO===', 'Regarde derrière toi...',
- 'dW4gZCdldXggdHJvdWUgw6AgcXUnYSB0J3JlIHNlaW4gcXVlIHNpIGNlIGNldHRl', 'Send me nudes: hackerwasi1@gmail,com', "Access point 'AP-Zone51' was found nearby."]
+text = ['Press F to hack', ' Hacekr wasii', 'Best OSINT Tool', 'Pakistan black Mafia', 'Twitter: Hackerwasii', 'insta : Hackerwasii', 'website : hackerwasii.com', 'BlackHat Hacker', 'Waseem Akram']
 
 lookupOption = """
  [1] Personne lookup          [8] Mail tracer                     
@@ -447,7 +404,7 @@ def menu():
 	menu = """
                          __..--.._ 
   .....              .--~  .....  `.         Time:      [ %s | %s ]
-.":    "`-..  .    .' ..-'"    :". `         Author:    [ HackErWaSi ]      
+.":    "`-..  .    .' ..-'"    :". `         Author:    [ Waseem Akram ]      
 ` `._ ` _.'`"(     `-"'`._ ' _.' '           Version:   [ %s ]              
      ~~~      `.          ~~~                Pays:      [ %s | %s ]
               .'                             Database:  [ %s | %s Ko ]  
@@ -470,7 +427,7 @@ print(mainOption)
 
 try:
 	while True:
-		choix = input("\n HackErWaSi("+Fore.BLUE + "~" + Fore.RESET + ")$ ")
+		choix = input("\n Hackerwasii("+Fore.BLUE + "~" + Fore.RESET + ")$ ")
 	
 		if choix.lower() == 'h':
 			print(helpMain)
@@ -488,7 +445,7 @@ try:
 				pr.loadDatabase(pathDatabase)
 				database = pr.database
 				
-				choix = input("\n HackErWaSi("+Fore.BLUE + "Profiler" + Fore.RESET + ")$ ")
+				choix = input("\n Hackerwasi("+Fore.BLUE + "Profiler" + Fore.RESET + ")$ ")
 
 				if choix.lower() == 'h':
 					print(helpMsg)
@@ -502,9 +459,9 @@ try:
 					menu()
 					print(profilerOption)
 				elif choix.lower() == 'e':
-					sys.exit("\n"+information+" Bye ! :)")
+					sys.exit("\n"+information+" Bye Thanks for using! :)")
 				elif choix.lower() == "1":
-					profile = input(" Profil: ")
+					profile = input(" Profile: ")
 					data = pr.searchDatabase(profile, database=database)
 					profilerFunc(data, path=pathDatabase)
 					
@@ -512,8 +469,8 @@ try:
 					pr.showAllProfiles(database=database)
 
 				elif choix.lower() == '3':
-					print("\n"+Fore.YELLOW+"(Format: Prenom Nom)"+Fore.RESET)
-					name = input(" Nom du Profil: ")
+					print("\n"+Fore.YELLOW+"(Format: First name Last name)"+Fore.RESET)
+					name = input(" Profile Name: ")
 					name = name.split(" ")
 					name = [i.capitalize() for i in name]
 					name = " ".join(name)
@@ -528,18 +485,18 @@ try:
 					create = pr.writeProfile(fileName=name, path=pathDatabase, info=info)
 
 					if create:
-						print("\n"+found+" Le profil '%s' a été créé avec succès." % (name))
+						print("\n"+found+" Profile '% s' was created successfully." % (name))
 					else:
-						print("\n"+warning+" Une erreur est survenue. Le profil '%s' n'a pas pu être créé." % (name))
+						print("\n"+warning+" An error has occurred. Profile '% s' could not be created. please Try again😘" % (name))
 
 		elif choix.lower() == 'e':
-			sys.exit("\n"+information+" Bye ! :)")
+			sys.exit("\n"+information+" Bye Keep supporting guys😍😘! :)")
 		elif choix == '1':
 			clear()
 			menu()
 			print(lookupOption)
 			while True:
-				lookup = input("\n HackErWaSi("+Fore.BLUE+"Lookup"+Fore.BLUE + "" + Fore.RESET + ")$ ")
+				lookup = input("\n Hackerwasii("+Fore.BLUE+"Lookup"+Fore.BLUE + "" + Fore.RESET + ")$ ")
 				if lookup == 'h':
 					print(helpLookup)
 				elif lookup.lower() == '1':
@@ -590,7 +547,7 @@ try:
 			menu()
 			print(otherToolOption)
 			while True:
-				se = input("\n HackErWaSi("+Fore.BLUE+"OtherTool"+Fore.BLUE + "" + Fore.RESET + ")$ ")
+				se = input("\n Hackerwasii("+Fore.BLUE+"OtherTool"+Fore.BLUE + "" + Fore.RESET + ")$ ")
 				if se == 'h':
 					print(helpOtherTool)
 				elif se == "1":
@@ -607,7 +564,7 @@ try:
 				elif se == '':
 					pass
 				elif se.lower() == "e":
-					sys.exit("\n"+information+" Bye ! :) ")
+					sys.exit("\n"+information+" Bye Thanks my friend for using our Tool 😘😍♥️! :) ")
 				else:
 					pass
 					# print("Commande introuvable")
@@ -617,7 +574,7 @@ try:
 			print(countryMenu)
 
 			while True:
-				newCode = input("\n HackErWaSi("+Fore.BLUE+"Country"+Fore.BLUE + "" + Fore.RESET + ")$ ")
+				newCode = input("\n Hackerwasii("+Fore.BLUE+"Country"+Fore.BLUE + "" + Fore.RESET + ")$ ")
 				if newCode == '1':
 					codemonpays = "FR"
 					monpays = "France"
@@ -666,4 +623,4 @@ try:
 			# print("Commande introuvable")
 
 except KeyboardInterrupt:
-	sys.exit("\n"+information+" Bye ! :)")
+	sys.exit("\n"+information+" Bye ALLAH HAFIZ 🥰😍♥️! :)")
