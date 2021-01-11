@@ -2,7 +2,7 @@ import sys, random, time, importlib
 import threading, settings
 
 def loadingHack(importlib):
-	chaine = "[*]"+' Start HackErWaSi...'
+	chaine = "[*]"+' Start Hackerwasii...'
 	charspec = "$*.X^%_/\\#~!?;"
 
 	while importlib.is_alive():
@@ -18,7 +18,7 @@ def loadingHack(importlib):
 			time.sleep(0.06)
 
 def loadingUpper(importlib):
-	string = "Start HackErWaSi"
+	string = "Start Waseem Akram..."
 	string = list(string)
 	nb = len(string)
 
@@ -36,7 +36,7 @@ def loadingUpper(importlib):
 			x += 1
 
 def loadingTextPrint(importlib):
-	string = "Start HackErWaSi"
+	string = "Start Hacker wasii.."
 
 	while importlib.is_alive():
 		space = " " * 100
@@ -47,7 +47,7 @@ def loadingTextPrint(importlib):
 		while x <= len(string):
 			times = "0."
 			times += str(random.choice(range(1, 3)))
-			sys.stdout.write("\rroot@HackErWaSi:~$ "+string[:x]+"|")
+			sys.stdout.write("\rroot@waseemakram:~$ "+string[:x]+"|")
 			time.sleep(float(times))
 			x += 1
 
