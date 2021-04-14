@@ -40,7 +40,7 @@ def searchInstagram():
 	print(found+" Pictures: %s" % (images))
 	print(found+" ID: %s" % (userId))
 	print(found+" Protected: %s" % (private))
-	print(found+" Subscribers: %s  |  Subscriptions: %s" % (followers, friend))
+	print(found+" Abonnés: %s  |  Abonnements: %s" % (followers, friend))
 	print(found+" Publication: %s" % (publication))
 	print(found+" Bio: %s" % (bio))
 
@@ -67,7 +67,7 @@ def searchInstagram():
 				pathDefault = os.getcwd()
 				print(Fore.YELLOW+" Default path: "+pathDefault+Fore.RESET)
 				path = input("\n Path: ")
-				print("\n"+wait+" Upload photos of '% s'\n" % (user))
+				print("\n"+wait+" Upload photos from '%s'\n" % (user))
 			
 				if not path:
 					path = pathDefault
@@ -86,7 +86,7 @@ def searchInstagram():
 						loc = ''
 
 					insta.downloadPictures(media, path, filename)
-					print("(% s)% s% s [% s]% s downloaded." % (str(i), typeMedia, date, view, loc))
+					print("(%s) %s %s [%s] %s downloaded." % (str(i), typeMedia, date, view, loc))
 
 				print("\n"+found+" Download finished.")
 				break
