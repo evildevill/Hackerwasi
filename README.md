@@ -113,6 +113,7 @@ Compatible
 - Windows
 - MacOS
 - Linux
+- Termux
 
 Python version:
 =
