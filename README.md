@@ -7,7 +7,6 @@
 <img src="https://github.com/evildevill/Hackerwasi/blob/master/images/s1png">
 
 Table of Contents
-=
 
 * [Hackerwasii](#Hackerwasii)
 * [Disclaimer](#Disclaimer)
@@ -15,7 +14,6 @@ Table of Contents
 * [Installation on Windows](#Installation-on-Windows)
 * [Contributors](#Contributors)
 * [Support us](#Support-us)
-=
 
 Hackerwasi is an information collection tool (OSINT) which aims to carry out research on a French, Swiss, Luxembourgish or Belgian person. It provides various modules that allow efficient searches. HaCkeRWaSi does not require an API key or login ID.
 
