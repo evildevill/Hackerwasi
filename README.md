@@ -4,7 +4,7 @@
 <img src="https://visitor-badge.laobi.icu/badge?page_id=HackerWaSi" alt="visitor badge"/>
 </p>
 
-<img src="https://github.com/evildevill/Hackerwasi/blob/master/images/s1png">
+<img src="https://github.com/evildevill/Hackerwasi/blob/master/images/s1.png">
 
 Table of Contents
 
