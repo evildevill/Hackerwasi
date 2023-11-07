@@ -1,13 +1,13 @@
 helpMain = """
  Name                       Action
- ----                       ------<
+ ----                       ------
  Lookup                     Do some research on a person.
  Other Tool                 Use tools other than recognition.
  Make file                  Create a '.txt' file to write the information obtained.
  Show Database              Access the database.
 
  Exit                       Exit the software.
- Help                       Affiche se message.
+ Help                       Display this message.
  Clear                      Clear the screen."""
 
 helpLookup = """
@@ -25,12 +25,13 @@ helpLookup = """
 [10] Google search                    Research on google.
 [11] Facebook graphSearch             Research using graphSearch.
 [12] twitter info                     Retrieve information from a Twitter account.
-[13] instagram info                   Retrieve information from a Instagram account.
+[13] instagram info                   Retrieve information from an Instagram account.
 
 [b]  Back main menu                   Return to the main menu.
 [e]  Exit script                      To exit the software.
 [c]  Clear screen                     Clear the screen.
 [h]  Help Message                     Display this message."""
+
 helpOtherTool = """
  Name                             Action
  ----                             ------
@@ -47,7 +48,7 @@ helpProfiler = """
  Show all Profiles         Displays all the profiles in the database.
 
  Exit Database             Exit the database to return to the main menu.
- Help message              Message displays
+ Help message              Display this message
 """
 
 helpCountry = """
@@ -62,3 +63,4 @@ helpCountry = """
  Back main menu            Return to the main menu.
  Exit script               To exit the software.
  Clear screen              Clear the screen."""
+ 

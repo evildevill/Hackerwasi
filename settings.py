@@ -1,5 +1,7 @@
-import os, datetime
-import requests, json
+import os
+import datetime
+import requests
+import json
 from core.bssidFinder import bssidFinder
 from core.employee_lookup import employee_lookup
 from core.google import google
@@ -17,6 +19,7 @@ from core.searchEmail import SearchEmail
 from core.Profiler import Profiler
 from core.facebookStalk import facebookStalk
 
+# Function to initialize the variables
 def init():
     global version
     global monip, monpays, codemonpays, pathDatabase
@@ -26,15 +29,18 @@ def init():
 
     version = '6.0.2'
 
-    pathDatabase = os.path.abspath(__file__).split("\\")[:-1]
-    pathDatabase = "\\".join(pathDatabase)+"\\Watched"
+    # Get the path to the database
+    pathDatabase = os.path.dirname(os.path.abspath(__file__)) + "/Watched"
 
+    # Get the public IP address
     monip = requests.get("https://api.ipify.org/").text
 
-    monpays = requests.get("http://ip-api.com/json/"+monip).text
+    # Get country information based on the IP address
+    monpays = requests.get("http://ip-api.com/json/" + monip).text
     value = json.loads(monpays)
     monpays = value['country']
     codemonpays = value['countryCode']
 
+    # Create the "Watched" directory if it doesn't exist
     if not os.path.exists(pathDatabase):
         os.mkdir(pathDatabase)
