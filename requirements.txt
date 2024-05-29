@@ -3,3 +3,4 @@ bs4
 terminaltables
 exifread
 colorama
+pytest
